@@ -2,10 +2,10 @@
 	session_start();
 
 	//setting database
-	$host		= "db4free.net";
-	$userdb 	= "ariefdjodjo";
-	$passdb 	= "4r13fgun4w4n";
-	$database 	= "simusul";
+	$host		= "sql12.freemysqlhosting.net";
+	$userdb 	= "sql12244694";
+	$passdb 	= "ui6yHff6fc";
+	$database 	= "sql12244694";
 
 	$db 	= mysqli_connect($host, $userdb, $passdb, $database);
 
