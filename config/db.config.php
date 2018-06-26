@@ -9,10 +9,10 @@
 
 	$db 	= mysqli_connect($host, $userdb, $passdb, $database);
 
-	if($db){
-	echo "koneksi host berhasil.<br/>";
-	}else{
-	echo "koneksi gagal.<br/>";
+	//if($db){
+	//echo "koneksi host berhasil.<br/>";
+	//}else{
+	//echo "koneksi gagal.<br/>";
 }
 
 	//setting hak akses
