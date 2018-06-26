@@ -2,9 +2,9 @@
 	session_start();
 
 	//setting database
-	$host		= "localhost";
-	$userdb 	= "root";
-	$passdb 	= "";
+	$host		= "https://www.db4free.net/";
+	$userdb 	= "ariefdjodjo";
+	$passdb 	= "4r13fgun4w4n";
 	$database 	= "simusul";
 
 	$db 	= mysqli_connect($host, $userdb, $passdb, $database);
