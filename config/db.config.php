@@ -9,6 +9,12 @@
 
 	$db 	= mysqli_connect($host, $userdb, $passdb, $database);
 
+	if($db){
+	echo "koneksi host berhasil.<br/>";
+	}else{
+	echo "koneksi gagal.<br/>";
+}
+
 	//setting hak akses
 	$load_user 	= mysqli_query($db, "SELECT * FROM mst_user a INNER JOIN mst_satker b ON a.id_satker=b.id_satker 
 		WHERE a.username='$_SESSION[ID]' AND a.pass='$_SESSION[PASS]'");
