@@ -1,7 +1,7 @@
 <?php
 	session_start();
 
-	setting database
+	//setting database
 	$host		= "sql12.freemysqlhosting.net";
 	$userdb 	= "sql12244694";
 	$passdb 	= "ui6yHff6fc";
