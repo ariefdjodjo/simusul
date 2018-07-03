@@ -42,6 +42,6 @@ if( $error == 0 ) {
    header( 'Location:index.php?page=' );
    exit();
 } else {
-   header("location:signin.php?user=$user_id&$md5=$pass");
+   header("location:signin.php?user=$user_id&id=$md5");
 }
 ?>
