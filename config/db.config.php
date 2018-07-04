@@ -2,7 +2,7 @@
 	session_start();
 
 	//setting database
-	$host		= "db4free.net";
+	$host		= "85.10.205.173:3306";
 	$userdb 	= "ariefdjodjo";
 	$passdb 	= "ariefgunawan";
 	$database 	= "djodjo";
