@@ -2,13 +2,14 @@
 	session_start();
 
 	//setting database
-	$host		= "sql113.byethost15.com";
-	$userdb 	= "b15_20757151";
+	$host		= "www.db4free.net";
+	$userdb 	= "ariefdjodjo";
 	$passdb 	= "ariefgunawan";
-	$database 	= "b15_20757151_proyek_web";
+	$database 	= "djodjo";
 
 	$db 	= mysqli_connect($host, $userdb, $passdb, $database);
-
+	if(!$db)
+		die("Gagal koneksi");
 
 	//setting hak akses
 	$load_user 	= mysqli_query($db, "SELECT * FROM mst_user a INNER JOIN mst_satker b ON a.id_satker=b.id_satker 
