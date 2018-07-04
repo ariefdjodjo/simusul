@@ -2,7 +2,7 @@
 	session_start();
 
 	//setting database
-	$host		= "http://185.27.134.10/";
+	$host		= "sql113.byethost.com";
 	$userdb 	= "b15_20757151";
 	$passdb 	= "ariefgunawan";
 	$database 	= "b15_20757151_proyek_web";
