@@ -2,10 +2,10 @@
 	session_start();
 
 	//setting database
-	$host		= "85.10.205.173:3307";
-	$userdb 	= "ariefdjodjo";
+	$host		= "http://185.27.134.10";
+	$userdb 	= "b15_20757151";
 	$passdb 	= "ariefgunawan";
-	$database 	= "djodjo";
+	$database 	= "b15_20757151_proyek_web";
 
 	$db 	= mysqli_connect($host, $userdb, $passdb, $database);
 	if(!$db)
